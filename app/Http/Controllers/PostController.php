@@ -13,4 +13,5 @@ class PostController extends Controller
             dump($post->name);
         }
     }
+    
 }

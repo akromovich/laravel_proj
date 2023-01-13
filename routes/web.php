@@ -28,3 +28,5 @@ Route::get('/profile/',function(){
 Route::get('/users/create',[\App\Http\Controllers\CrudController::class,'create']);
 Route::get('/users/update',[\App\Http\Controllers\CrudController::class,'update']);
 Route::get('/users/delete',[\App\Http\Controllers\CrudController::class,'delete']);
+Route::get('/profile/foc/',[\App\Http\Controllers\CombatController::class,'firstorcreate']);
+Route::get('profile/uoc/',[\App\Http\Controllers\CombatController::class,'updateorcreate']);
